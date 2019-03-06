@@ -25,7 +25,7 @@ export default class RedditPost extends Component {
             <a href={post.url}>{post.title}</a>
           </h3>
           <div className="submitted">
-            Submitted <Time time={post.created} isUnixTime={true}/>
+            Submit <Time time={post.created} isUnixTime={true}/>
           </div>
           <a className="comments" href={`https://www.reddit.com${post.permalink}`}>
             {post.num_comments} comments
